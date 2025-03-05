@@ -4,7 +4,9 @@ This project demonstrates the process of sales data analysis and forecasting usi
 
 ## Project Overview
 
-**Objective:** Analyzing historical sales data, identify trends, seasonality, and key drivers of sales, and apply forecasting techniques to predict future sales. The goal is to use the data to provide actionable insights and optimize business strategies.
+**Objective:** 
+
+Analyzing historical sales data, identify trends, seasonality, and key drivers of sales, and apply forecasting techniques to predict future sales. The goal is to use the data to provide actionable insights and optimize business strategies.
 
 ## Data Collection and Preparation
 
@@ -37,6 +39,7 @@ This project demonstrates the process of sales data analysis and forecasting usi
 ![Trend Analysis](img/Trend_Analysis.png)
 
 **Summary:**
+
 The chart shows a significant spike in sales amount and quantity in April, followed by steady growth in quantity sold but a flattening of sales revenue in the following months.
 
 **Key Insights:**
@@ -48,6 +51,7 @@ The chart shows a significant spike in sales amount and quantity in April, follo
 ![Seasonality Analysis By Quarters](img/Seasonality_Analysis_By_Quarters.png)
 
 **Summary:**
+
 The chart shows the sales amount across four quarters. Qtr1 has the lowest sales, while Qtr2, Qtr3, and Qtr4 show similar and higher sales figures.
 
 **Key Insights:**
@@ -59,6 +63,7 @@ The chart shows the sales amount across four quarters. Qtr1 has the lowest sales
 ![Exponential Moving Average](img/Exponential_Moving_Average.png)
 
 **Summary:**
+
 The chart shows Sales Amount over the months with an Exponential Moving Average (EMA) trendline. The EMA highlights the overall upward trend in sales, particularly after April.
 
 **Key Insights:**
@@ -83,10 +88,13 @@ The chart shows Sales Amount over the months with an Exponential Moving Average 
 ![Sales vs Unit Price](img/Sales_vs_Unit_Price.png)
 
 **Summary:**
+
 `Sales vs Product Line:` No strong relationship between sales and product line, as shown by the scattered data points.
 `Sales vs Quantity:` A positive correlation exists, with sales increasing as quantity sold rises.
 `Sales vs Unit Price:` There is a noticeable increase in sales as unit price increases, indicating that higher-priced items tend to generate higher sales.
+
 **Key Insights:**
+
 `Sales and Product Line:` Sales do not significantly vary by product line, suggesting other factors (like price or quantity) may drive sales.
 `Quantity and Sales:` The strong positive relationship between sales and quantity indicates that increasing the quantity sold directly boosts total sales.
 `Price and Sales:` The positive correlation between sales and unit price suggests that higher-priced products contribute to higher sales amounts.
