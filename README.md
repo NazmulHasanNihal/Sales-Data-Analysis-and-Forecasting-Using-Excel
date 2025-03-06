@@ -83,6 +83,8 @@ The chart shows Sales Amount over the months with an Exponential Moving Average 
 > * **Elasticity Analysis**
 >   * Performing price elasticity analysis to measure how price changes affect sales.
 
+### Correlation Analysis
+
 ![Sales vs Product Line](img/Sales_vs_Product_Line.png)
 ![Sales vs Quantity](img/Sales_vs_Quantity.png)
 ![Sales vs Unit Price](img/Sales_vs_Unit_Price.png)
@@ -99,3 +101,27 @@ The chart shows Sales Amount over the months with an Exponential Moving Average 
 `Quantity and Sales:` The strong positive relationship between sales and quantity indicates that increasing the quantity sold directly boosts total sales.
 `Price and Sales:` The positive correlation between sales and unit price suggests that higher-priced products contribute to higher sales amounts.
 
+### Regression Analysis
+
+![Regression Analysis](img/Regression_Analysis.png)
+
+**Summary:**
+
+>
+> * R-squared of `0.8855` indicates that `88.55%` of the variability in the dependent variable is explained by the model, suggesting a strong fit.
+> * Adjusted R-squared `(0.8855)` is similar to R-squared, indicating no overfitting.
+> * The F-statistic is `12879.32`, and Significance F is `0`, indicating the model is statistically significant.
+> * The coefficients show the influence of each variable:
+>   * `Intercept: -315.09`.
+>   * `Unit price (74.69):` 
+>     * Strong positive effect on the dependent variable.
+>   * `Quantity (7)`: 
+>     * Strong positive effect.
+>   * `Product Line (1)`: 
+>     * No significant effect on the dependent variable, as its p-value is high `(0.905)`.
+
+**Key Insights:**
+>
+> * `Strong Model Fit:` The model explains a large portion of the variance in the dependent variable `(88.55%)`.
+> * `Statistical Significance:` The regression model is statistically significant, confirming its validity.
+> * `Key Drivers:` Unit price and Quantity significantly affect the dependent variable, while Product Line has a minimal effect.
